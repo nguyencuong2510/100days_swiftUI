@@ -14,6 +14,7 @@
 		5C3CC2942A20B739003907C2 /* LearningSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CC2932A20B739003907C2 /* LearningSwiftUITests.swift */; };
 		5C3CC29E2A20B739003907C2 /* LearningSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CC29D2A20B739003907C2 /* LearningSwiftUIUITests.swift */; };
 		5C3CC2A02A20B739003907C2 /* LearningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CC29F2A20B739003907C2 /* LearningSwiftUIUITestsLaunchTests.swift */; };
+		5CBDD3F42A24876C00777514 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBDD3F32A24876C00777514 /* GuessTheFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C3CC2992A20B739003907C2 /* LearningSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3CC29D2A20B739003907C2 /* LearningSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITests.swift; sourceTree = "<group>"; };
 		5C3CC29F2A20B739003907C2 /* LearningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CBDD3F32A24876C00777514 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		5C3CC2812A20B738003907C2 /* LearningSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5CBDD3F52A24893300777514 /* firstProject */,
+				5CBDD3F22A24848A00777514 /* GuessTheFlag */,
 				5C3CC2822A20B738003907C2 /* LearningSwiftUIApp.swift */,
-				5C3CC2842A20B738003907C2 /* ContentView.swift */,
 				5C3CC2862A20B738003907C2 /* Assets.xcassets */,
 				5C3CC2882A20B738003907C2 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				5C3CC29F2A20B739003907C2 /* LearningSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = LearningSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5CBDD3F22A24848A00777514 /* GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+				5CBDD3F32A24876C00777514 /* GuessTheFlag.swift */,
+			);
+			path = GuessTheFlag;
+			sourceTree = "<group>";
+		};
+		5CBDD3F52A24893300777514 /* firstProject */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CC2842A20B738003907C2 /* ContentView.swift */,
+			);
+			path = firstProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBDD3F42A24876C00777514 /* GuessTheFlag.swift in Sources */,
 				5C3CC2852A20B738003907C2 /* ContentView.swift in Sources */,
 				5C3CC2832A20B738003907C2 /* LearningSwiftUIApp.swift in Sources */,
 			);
